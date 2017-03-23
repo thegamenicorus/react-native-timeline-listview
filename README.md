@@ -15,6 +15,7 @@ npm i react-native-timeline-listview --save
 ```
 
 ## Basic Usage
+![simulator screen shot mar 23 2560 be 4 47 03 pm](https://cloud.githubusercontent.com/assets/21040043/24268525/9c716634-1040-11e7-9496-3cfae0a959ee.png)
 ```jsx
 import Timeline from 'react-native-timeline-listview'
 
