@@ -62,4 +62,18 @@ render(){
 ```
 [see full custom example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/customExample.js)
 
+## Circle Dot
+![simulator screen shot mar 23 2560 be 4 47 12 pm](https://cloud.githubusercontent.com/assets/21040043/24242012/1b6c45c4-0fe9-11e7-8703-c2042988cabc.png)
+```jsx
+render(){
+    return(
+        <Timeline 
+          //..other props
+          innerCircle={'dot'}
+        />
+    )
+}
+```
+[see full circle dot example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/dotExample.js)
+
 More info ... Coming Soon :D
