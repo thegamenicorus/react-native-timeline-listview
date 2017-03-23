@@ -40,4 +40,17 @@ render(){
 ```
 [see full basic example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/basicExample.js)
 
+## Custom
+![simulator screen shot mar 23 2560 be 4 47 08 pm](https://cloud.githubusercontent.com/assets/21040043/24242008/190fa2f8-0fe9-11e7-87b6-bffe2252dffb.png)
+```jsx
+render(){
+    return(
+        <Timeline 
+          data={this.data}
+        />
+    )
+}
+```
+[see full custom example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/customExample.js)
+
 More info ... Coming Soon :D
