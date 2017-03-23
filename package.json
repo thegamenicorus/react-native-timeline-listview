@@ -1,6 +1,6 @@
 {
   "name": "react-native-timeline-listview",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "Timeline component for React Native",
   "main": "lib/index.js",
   "scripts": {
