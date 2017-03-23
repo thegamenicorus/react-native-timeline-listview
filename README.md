@@ -13,3 +13,5 @@ Timeline component for React Native App work for Android and iOS
 ```
 npm i react-native-timeline-listview --save
 ```
+
+More info ... Coming Soon :D
