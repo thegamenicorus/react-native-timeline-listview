@@ -46,7 +46,16 @@ render(){
 render(){
     return(
         <Timeline 
-          data={this.data}
+          //..other props
+          circleSize={20}
+          circleColor='rgb(45,156,219)'
+          lineColor='rgb(45,156,219)'
+          timeContainerStyle={{minWidth:52, marginTop: -5}}
+          timeStyle={{textAlign: 'center', backgroundColor:'#ff9797', color:'white', padding:5, borderRadius:13}}
+          descriptionStyle={{color:'gray'}}
+          options={{
+            style:{paddingTop:5}
+          }}
         />
     )
 }
