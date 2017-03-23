@@ -14,4 +14,29 @@ Timeline component for React Native App work for Android and iOS
 npm i react-native-timeline-listview --save
 ```
 
+## Basic Usage
+```jsx
+import Timeline from 'react-native-timeline-listview'
+
+constructor(){
+    super()
+    this.data = [
+      {time: '09:00', title: 'Event 1', description: 'Event 1 Description'},
+      {time: '10:45', title: 'Event 2', description: 'Event 2 Description'},
+      {time: '12:00', title: 'Event 3', description: 'Event 3 Description'},
+      {time: '14:00', title: 'Event 4', description: 'Event 4 Description'},
+      {time: '16:30', title: 'Event 5', description: 'Event 5 Description'}
+    ]
+  } 
+
+render(){
+    return(
+        <Timeline 
+          data={this.data}
+        />
+    )
+}
+```
+[see full basic example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/basicExample.js)
+
 More info ... Coming Soon :D
