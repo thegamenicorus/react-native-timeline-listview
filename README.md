@@ -76,4 +76,28 @@ render(){
 ```
 [see full circle dot example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/dotExample.js)
 
+## Icon
+![simulator screen shot mar 23 2560 be 4 47 16 pm](https://cloud.githubusercontent.com/assets/21040043/24269056/6772109e-1042-11e7-9462-b9ecdc3e05c6.png)
+```jsx
+constructor(){
+    super()
+    this.data = [
+      {time: '09:00', title: 'Archery Training', description: 'The Beginner Archery and Beginner Crossbow course does not require you to bring any equipment, since everything you need will be provided for the course. ',lineColor:'#009688', icon: require('../img/archery.png')},
+      {time: '10:45', title: 'Play Badminton', description: 'Badminton is a racquet sport played using racquets to hit a shuttlecock across a net.', icon: require('../img/badminton.png')},
+      {time: '12:00', title: 'Lunch', icon: require('../img/lunch.png')},
+      {time: '14:00', title: 'Watch Soccer', description: 'Team sport played between two teams of eleven players with a spherical ball. ',lineColor:'#009688', icon: require('../img/soccer.png')},
+      {time: '16:30', title: 'Go to Fitness center', description: 'Look out for the Best Gym & Fitness Centers around me :)', icon: require('../img/dumbbell.png')}
+    ]
+  } 
+render(){
+    return(
+        <Timeline 
+          //..other props
+          innerCircle={'icon'}
+        />
+    )
+}
+```
+[see full icon example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/iconExample.js)
+
 More info ... Coming Soon :D
