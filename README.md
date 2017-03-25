@@ -190,12 +190,39 @@ render(){
 ##### Data Object:
 | Property | Type | Default | Description |
 |---------------|----------|-------------|----------------------------------------------------------------|
-| time | string | null | Event time |
-| title | string | null | Event title |
-| description | string | null | Event description |
-| lineWidth | int | same as lineWidth of 'Timeline' | Event line width  |
-| lineColor | string | same as lineColor of 'Timeline' | Event line color |
-| circleSize | int | same as circleSize of 'Timeline' | Event circle size |
-| circleColor | string | same as circleColor of 'Timeline' | Event circle color |
-| dotColor | string | same as dotColor of 'Timeline' | Event dot color (innerCircle = 'dot') |
-| icon | obj(image source) | same as icon of 'Timeline' | Event icon color (innerCircle = 'color') |
+| time | string | null | event time |
+| title | string | null | event title |
+| description | string | null | event description |
+| lineWidth | int | same as lineWidth of 'Timeline' | event line width  |
+| lineColor | string | same as lineColor of 'Timeline' | event line color |
+| circleSize | int | same as circleSize of 'Timeline' | event circle size |
+| circleColor | string | same as circleColor of 'Timeline' | event circle color |
+| dotColor | string | same as dotColor of 'Timeline' | event dot color (innerCircle = 'dot') |
+| icon | obj(image source) | same as icon of 'Timeline' | event icon (innerCircle = 'color') |
+
+### Timeline:
+| Property | Type | Default | Description |
+|---------------|----------|-------------|----------------------------------------------------------------|
+| data | data object | null | timeline data |
+| innerCircle | string | null | timeline mode canbe 'none', 'dot', 'icon' |
+| isRenderSeparator | bool | true | render separator line of events |
+| lineWidth | int | 2 | timeline line width  |
+| lineColor | string | '#007AFF' | timeline line color |
+| circleSize | int | 16 | timeline circle size |
+| circleColor | string | '#007AFF' | timeline circle color |
+| dotColor | string | 'white' | timeline dot color (innerCircle = 'dot') |
+| icon | obj(image source) | null | timeline icon (innerCircle = 'color') |
+| style | object | null | custom styles of Timeline |
+| timeStyle | object | null | custom styles of event time |
+| titleStyle | object | null | custom styles of event title |
+| descriptionStyle | object | null | custom styles of event description |
+| iconStyle | object | null | custom styles of event icon |
+| separatorStyle | object | null | custom styles of separator |
+| rowContainerStyle | object | null | custom styles of event container |
+| timeContainerStyle | object | null | custom styles of container of event time  |
+| detailContainerStyle| object | null | custom styles of container of event title and event description |
+| onEventPress | function(event) | null | function to be invoked when event was pressed |
+| renderTime | function(rowData, sectionID, rowID) | null | custom render event time |
+| renderDetail | function(rowData, sectionID, rowID) | null | custom render event title and event description |
+| renderCircle | function(rowData, sectionID, rowID) | null | custom render circle |
+
