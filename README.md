@@ -15,6 +15,7 @@ Timeline component for React Native App work for Android and iOS
 - Configuration
   - [Data Object](#data-object)
   - [Timeline](#timeline)
+- [Shift problem](#shift-problem)
 
 ## Installation
 ```
