@@ -190,4 +190,4 @@ render(){
 ##### Data Object:
 | Property | Type | Default | Description |
 |---------------|----------|-------------|----------------------------------------------------------------|
-Coming Soon .. Good night :D
+| title | string | null | Event title |
