@@ -224,3 +224,21 @@ render(){
 | renderCircle | function(rowData, sectionID, rowID) | null | custom render circle |
 | options | object | null | ListView properties|
 
+## Shift problem
+
+Text width of event time may not be the same. 
+
+![untitled-1](https://cloud.githubusercontent.com/assets/21040043/24321589/78d0c77c-1182-11e7-9c0f-69ebe591cb14.png)
+
+fix by add 'minWidth' in 'timeContainerStyle' to appropriate value
+
+```jsx
+render(){
+    return(
+        <Timeline 
+          //..other props
+          timeContainerStyle={{minWidth:72}}
+        />
+    )
+}
+```
