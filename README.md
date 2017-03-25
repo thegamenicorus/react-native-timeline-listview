@@ -1,13 +1,8 @@
 # React Native Timeline Listview
 Timeline component for React Native App work for Android and iOS
 
+![image1](https://cloud.githubusercontent.com/assets/21040043/24320598/1aff36cc-116b-11e7-90c8-c5045dc32537.png)
 
-
-|![simulator screen shot mar 23 2560 be 4 47 08 pm](https://cloud.githubusercontent.com/assets/21040043/24242008/190fa2f8-0fe9-11e7-87b6-bffe2252dffb.png)
-|![simulator screen shot mar 23 2560 be 4 47 12 pm](https://cloud.githubusercontent.com/assets/21040043/24242012/1b6c45c4-0fe9-11e7-8703-c2042988cabc.png)
-|![simulator screen shot mar 23 2560 be 4 47 27 pm](https://cloud.githubusercontent.com/assets/21040043/24242021/211c7bb0-0fe9-11e7-8c6d-061edf0a4d5d.png)
-|
-|----------|----------|----------|
 
 **Table of Contents**
 - [Installation](#installation)
@@ -17,7 +12,7 @@ Timeline component for React Native App work for Android and iOS
   - [Circle dot example](#circle-dot)
   - [Icon example](#icon)
   - [Override render example](#override-render)
-- [Configuration](#configuration)
+- Configuration
   - [Data Object](#data-object)
   - [Timeline](#timeline)
 
@@ -27,7 +22,7 @@ npm i react-native-timeline-listview --save
 ```
 
 ## Basic Usage
-![simulator screen shot mar 23 2560 be 4 47 03 pm](https://cloud.githubusercontent.com/assets/21040043/24268525/9c716634-1040-11e7-9496-3cfae0a959ee.png)
+![image2](https://cloud.githubusercontent.com/assets/21040043/24320617/6a7494ea-116b-11e7-9cf5-12244f5eec58.png)
 ```jsx
 import Timeline from 'react-native-timeline-listview'
 
@@ -53,7 +48,7 @@ render(){
 [see full basic example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/basicExample.js)
 
 ## Custom
-![simulator screen shot mar 23 2560 be 4 47 08 pm](https://cloud.githubusercontent.com/assets/21040043/24242008/190fa2f8-0fe9-11e7-87b6-bffe2252dffb.png)
+![image3](https://cloud.githubusercontent.com/assets/21040043/24320631/9df21a86-116b-11e7-8865-2631d35bc640.png)
 ```jsx
 render(){
     return(
@@ -75,7 +70,7 @@ render(){
 [see full custom example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/customExample.js)
 
 ## Circle Dot
-![simulator screen shot mar 23 2560 be 4 47 12 pm](https://cloud.githubusercontent.com/assets/21040043/24242012/1b6c45c4-0fe9-11e7-8703-c2042988cabc.png)
+![image4](https://cloud.githubusercontent.com/assets/21040043/24320644/f5bc5b0a-116b-11e7-9252-2c9fc2361dc9.png)
 ```jsx
 render(){
     return(
@@ -89,7 +84,7 @@ render(){
 [see full circle dot example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/dotExample.js)
 
 ## Icon
-![simulator screen shot mar 23 2560 be 4 47 16 pm](https://cloud.githubusercontent.com/assets/21040043/24269056/6772109e-1042-11e7-9462-b9ecdc3e05c6.png)
+![image5](https://cloud.githubusercontent.com/assets/21040043/24320654/1c5de27e-116c-11e7-95cc-750d55e001b8.png)
 ```jsx
 constructor(){
     super()
@@ -113,7 +108,7 @@ render(){
 [see full icon example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/iconExample.js)
 
 ## Override Render
-![simulator screen shot mar 23 2560 be 4 47 27 pm](https://cloud.githubusercontent.com/assets/21040043/24242021/211c7bb0-0fe9-11e7-8c6d-061edf0a4d5d.png)
+![image6](https://cloud.githubusercontent.com/assets/21040043/24320661/36fe76e8-116c-11e7-950f-2968aef312bb.png)
 ```jsx
 constructor(){
     super()
