@@ -198,4 +198,4 @@ render(){
 | circleSize | int | same as circleSize of 'Timeline' | Event circle size |
 | circleColor | string | same as circleColor of 'Timeline' | Event circle color |
 | dotColor | string | same as dotColor of 'Timeline' | Event dot color (innerCircle = 'dot') |
-| icon | obj(image source) | same as icon of 'Timeline' | Eventicon color (innerCircle = 'color') |
+| icon | obj(image source) | same as icon of 'Timeline' | Event icon color (innerCircle = 'color') |
