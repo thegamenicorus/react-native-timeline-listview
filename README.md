@@ -18,6 +18,8 @@ Timeline component for React Native App work for Android and iOS
   - [Icon example](#icon)
   - [Override render example](#override-render)
 - [Configuration](#configuration)
+  - [Data Object](#data-object)
+  - [Timeline](#timeline)
 
 ## Installation
 ```
@@ -187,7 +189,7 @@ render(){
 [see full override render example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/overrideRenderExample.js)
 
 ## Configuration
-##### Data Object:
+#### Data Object:
 | Property | Type | Default | Description |
 |---------------|----------|-------------|----------------------------------------------------------------|
 | time | string | null | event time |
@@ -200,7 +202,7 @@ render(){
 | dotColor | string | same as dotColor of 'Timeline' | event dot color (innerCircle = 'dot') |
 | icon | obj(image source) | same as icon of 'Timeline' | event icon (innerCircle = 'color') |
 
-### Timeline:
+#### Timeline:
 | Property | Type | Default | Description |
 |---------------|----------|-------------|----------------------------------------------------------------|
 | data | data object | null | timeline data |
