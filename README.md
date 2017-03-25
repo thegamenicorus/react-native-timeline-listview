@@ -222,4 +222,5 @@ render(){
 | renderTime | function(rowData, sectionID, rowID) | null | custom render event time |
 | renderDetail | function(rowData, sectionID, rowID) | null | custom render event title and event description |
 | renderCircle | function(rowData, sectionID, rowID) | null | custom render circle |
+| options | object | null | ListView properties|
 
