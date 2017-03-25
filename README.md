@@ -17,7 +17,7 @@ Timeline component for React Native App work for Android and iOS
   - [Circle dot example](#circle-dot)
   - [Icon example](#icon)
   - [Override render example](#override-render)
-- [Configuration](#configuration)
+- Configuration
   - [Data Object](#data-object)
   - [Timeline](#timeline)
 
