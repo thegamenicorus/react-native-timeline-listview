@@ -224,6 +224,7 @@ render(){
 | renderCircle | function(rowData, sectionID, rowID) | null | custom render circle |
 | options | object | null | ListView properties|
 
+
 ## Shift problem
 
 Text width of event time may not be the same. 
