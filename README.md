@@ -190,4 +190,12 @@ render(){
 ##### Data Object:
 | Property | Type | Default | Description |
 |---------------|----------|-------------|----------------------------------------------------------------|
+| time | string | null | Event time |
 | title | string | null | Event title |
+| description | string | null | Event description |
+| lineWidth | int | same as lineWidth of 'Timeline' | Event line width  |
+| lineColor | string | same as lineColor of 'Timeline' | Event line color |
+| circleSize | int | same as circleSize of 'Timeline' | Event circle size |
+| circleColor | string | same as circleColor of 'Timeline' | Event circle color |
+| dotColor | string | same as dotColor of 'Timeline' | Event dot color (innerCircle = 'dot') |
+| icon | obj(image source) | same as icon of 'Timeline' | Eventicon color (innerCircle = 'color') |
