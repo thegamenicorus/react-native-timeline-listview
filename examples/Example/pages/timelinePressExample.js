@@ -15,7 +15,7 @@ import Timeline from 'react-native-timeline-listview'
 export default class Example extends Component {
   constructor(){
     super()
-    this.onTimelinePress = this.onTimelinePress.bind(this)
+    this.onEventPress = this.onEventPress.bind(this)
     this.renderSelected = this.renderSelected.bind(this)
     this.data = [
       {time: '09:00', title: 'Archery Training', description: 'The Beginner Archery and Beginner Crossbow course does not require you to bring any equipment, since everything you need will be provided for the course. ',lineColor:'#009688', icon: require('../img/archery.png')},
@@ -27,7 +27,7 @@ export default class Example extends Component {
     this.state = {selected: null}
   } 
 
-  onTimelinePress(data){
+  onEventPress(data){
     this.setState({selected: data})
   }
 
@@ -53,7 +53,7 @@ export default class Example extends Component {
             style:{paddingTop:5}
           }}
           innerCircle={'icon'}
-          onTimelinePress={this.onTimelinePress}
+          onEventPress={this.onEventPress}
         />
       </View>
     );
