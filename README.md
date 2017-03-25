@@ -9,6 +9,15 @@ Timeline component for React Native App work for Android and iOS
 |
 |----------|----------|----------|
 
+**Table of Contents**
+- [Installation](#installation)
+- [Basic usage](#basic-usage)
+- [Custom example](#custom)
+- [Circle dot example](#circle-dot)
+- [Icon example](#icon)
+- [Override render example](#override-render)
+- [Configuration](#configuration)
+
 ## Installation
 ```
 npm i react-native-timeline-listview --save
@@ -176,5 +185,8 @@ render(){
 ```
 [see full override render example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/overrideRenderExample.js)
 
-## API 
+## Configuration
+##### Data Object:
+| Property | Type | Default | Description |
+|---------------|----------|-------------|----------------------------------------------------------------|
 Coming Soon .. Good night :D
