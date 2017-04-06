@@ -202,8 +202,9 @@ render(){
 | Property | Type | Default | Description |
 |---------------|----------|-------------|----------------------------------------------------------------|
 | data | data object | null | timeline data |
-| innerCircle | string | null | timeline mode canbe 'none', 'dot', 'icon' |
-| isRenderSeparator | bool | true | render separator line of events |
+| innerCircle | string | null | timeline mode : 'none', 'dot', 'icon' |
+| separator | bool | true | render separator line of events |
+| columnFormat | string | 'single-left' | can be 'single-left', 'single-right', 'two-column' |
 | lineWidth | int | 2 | timeline line width  |
 | lineColor | string | '#007AFF' | timeline line color |
 | circleSize | int | 16 | timeline circle size |
