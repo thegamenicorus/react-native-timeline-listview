@@ -47,6 +47,12 @@ export default class Example extends Component {
         <TouchableOpacity style={styles.button} onPress={() => this.goto({name:'override', title:'Override Render Example'})}>
           <Text style={styles.menu}>Override Render Example</Text>
         </TouchableOpacity>
+        <TouchableOpacity style={styles.button} onPress={() => this.goto({name:'single-right', title:'Single Right Example'})}>
+          <Text style={styles.menu}>Single Column Right Example</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.button} onPress={() => this.goto({name:'two-column', title:'Two Column Example'})}>
+          <Text style={styles.menu}>Two Column Example</Text>
+        </TouchableOpacity>
 			</View>
     )
   }

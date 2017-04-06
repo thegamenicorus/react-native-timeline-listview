@@ -20,6 +20,8 @@ import DotExample from './pages/dotExample'
 import IconExample from './pages/iconExample'
 import PressExample from './pages/timelinePressExample'
 import OverrideExample from './pages/overrideRenderExample'
+import SingleRightExample from './pages/singleRightExample'
+import TwoColumnExample from './pages/twoColumnExample'
 
 export default class Example extends Component {
   constructor(){
@@ -43,6 +45,10 @@ export default class Example extends Component {
 				return <PressExample navigator={nav}/>
       case 'override':
         return <OverrideExample navigator={nav}/>
+      case 'single-right':
+        return <SingleRightExample navigator={nav}/>
+      case 'two-column':
+        return <TwoColumnExample navigator={nav}/>
     }
   }
 
