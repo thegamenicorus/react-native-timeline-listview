@@ -1,8 +1,7 @@
 # React Native Timeline Listview
 Timeline component for React Native App work for Android and iOS
 
-![image1](https://cloud.githubusercontent.com/assets/21040043/24320598/1aff36cc-116b-11e7-90c8-c5045dc32537.png)
-
+![untitled-1](https://cloud.githubusercontent.com/assets/21040043/24750025/8c8d044e-1aef-11e7-8fd7-7d64431af7e4.png)
 
 **Table of Contents**
 - [Installation](#installation)
