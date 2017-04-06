@@ -12,7 +12,7 @@ Timeline component for React Native App work for Android and iOS
   - [Circle dot example](#circle-dot)
   - [Icon example](#icon)
   - [Override render example](#override-render)
-- Column Format (new in 0.2.0)(#column-format)
+- Column Format (in v.0.2.0)
   - [Single column right](#single-column-right)
   - [Two column](#two-column)
 - Configuration
