@@ -19,6 +19,7 @@ export default class Example extends Component {
     super()
     this.onEndReached = this.onEndReached.bind(this)
     this.renderFooter = this.renderFooter.bind(this)
+    this.onRefresh = this.onRefresh.bind(this)
 
     this.data = [
       {time: '09:00', title: 'Archery Training', description: 'The Beginner Archery and Beginner Crossbow course does not require you to bring any equipment, since everything you need will be provided for the course. '},
@@ -35,7 +36,7 @@ export default class Example extends Component {
     }
   } 
 
-  _onRefresh = () => {
+  onRefresh(){
     this.setState({isRefreshing: true});
     //refresh to initial data
     setTimeout(() => {
@@ -99,7 +100,7 @@ renderFooter() {
             refreshControl: (
               <RefreshControl
                 refreshing={this.state.isRefreshing}
-                onRefresh={this._onRefresh}
+                onRefresh={this.onRefresh}
               />
             ),
             renderFooter: this.renderFooter,

@@ -188,8 +188,9 @@ render(){
 [see full override render example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/overrideRenderExample.js)
 
 ## Pull to refresh and load more
-![simulator screen shot apr 6 2560 be 5 05 32 pm](https://cloud.githubusercontent.com/assets/21040043/24749638/0515f210-1aee-11e7-82af-082d93efb618.png)
+![rflm](https://cloud.githubusercontent.com/assets/21040043/26756369/304d2e7a-48cb-11e7-816d-66e8d40a97ee.png)
 ```jsx
+
 onRefresh(){
   //set initial data
 }
