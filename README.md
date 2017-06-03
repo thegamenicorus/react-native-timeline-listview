@@ -226,7 +226,7 @@ render(){
     )
 }
 ```
-[see full to column example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/refreshLoadMoreExample.js)
+[see full refresh and loadmore example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/refreshLoadMoreExample.js)
 
 ## Column Format
 ### Single Column Right
@@ -255,7 +255,7 @@ render(){
     )
 }
 ```
-[see full to column example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/twoColumnExample.js)
+[see full two column example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/twoColumnExample.js)
 
 ## Configuration
 #### Data Object:
