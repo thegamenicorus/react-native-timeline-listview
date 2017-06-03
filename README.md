@@ -11,6 +11,7 @@ Timeline component for React Native App work for Android and iOS
   - [Circle dot example](#circle-dot)
   - [Icon example](#icon)
   - [Override render example](#override-render)
+  - [Pull to refresh and load more example](#refresh-loadmore)
 - Column Format (in v.0.2.0)
   - [Single column right](#single-column-right)
   - [Two column](#two-column)
@@ -156,7 +157,7 @@ constructor(){
     ]
   } 
   
-renderEvent(rowData, sectionID, rowID) {
+renderDetail(rowData, sectionID, rowID) {
     let title = <Text style={[styles.title]}>{rowData.title}</Text>
     var desc = null
     if(rowData.description && rowData.imageUrl)
@@ -185,6 +186,46 @@ render(){
 }
 ```
 [see full override render example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/overrideRenderExample.js)
+
+## Pull to refresh and load more
+![simulator screen shot apr 6 2560 be 5 05 32 pm](https://cloud.githubusercontent.com/assets/21040043/24749638/0515f210-1aee-11e7-82af-082d93efb618.png)
+```jsx
+onRefresh(){
+  //set initial data
+}
+
+onEndReached() {
+  //fetch next data
+}
+
+renderFooter() {
+    //show loading indicator
+    if (this.state.waiting) {
+        return <ActivityIndicator />;
+    } else {
+        return <Text>~</Text>;
+    }
+}
+
+render(){
+    return(
+        <Timeline 
+          //..other props
+          options={{
+            refreshControl: (
+              <RefreshControl
+                refreshing={this.state.isRefreshing}
+                onRefresh={this.onRefresh}
+              />
+            ),
+            renderFooter: this.renderFooter,
+            onEndReached: this.onEndReached
+          }}
+        />
+    )
+}
+```
+[see full to column example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/refreshLoadMoreExample.js)
 
 ## Column Format
 ### Single Column Right
