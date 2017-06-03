@@ -22,6 +22,7 @@ import PressExample from './pages/timelinePressExample'
 import OverrideExample from './pages/overrideRenderExample'
 import SingleRightExample from './pages/singleRightExample'
 import TwoColumnExample from './pages/twoColumnExample'
+import RefreshLoadMore from './pages/refreshLoadMoreExample'
 
 export default class Example extends Component {
   constructor(){
@@ -49,6 +50,8 @@ export default class Example extends Component {
         return <SingleRightExample navigator={nav}/>
       case 'two-column':
         return <TwoColumnExample navigator={nav}/>
+      case 'refresh-loadmore':
+        return <RefreshLoadMore navigator={nav}/>
     }
   }
 

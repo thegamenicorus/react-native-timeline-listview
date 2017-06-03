@@ -53,6 +53,9 @@ export default class Example extends Component {
         <TouchableOpacity style={styles.button} onPress={() => this.goto({name:'two-column', title:'Two Column Example'})}>
           <Text style={styles.menu}>Two Column Example</Text>
         </TouchableOpacity>
+        <TouchableOpacity style={styles.button} onPress={() => this.goto({name:'refresh-loadmore', title:'Refresh Load More'})}>
+          <Text style={styles.menu}>Refresh and Loadmore</Text>
+        </TouchableOpacity>
 			</View>
     )
   }
