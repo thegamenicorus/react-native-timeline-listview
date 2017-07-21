@@ -292,11 +292,13 @@ render(){
 | separatorStyle | object | null | custom styles of separator |
 | rowContainerStyle | object | null | custom styles of event container |
 | timeContainerStyle | object | null | custom styles of container of event time  |
+| circleStyle | object | null | custom styles of innerCircle container of event time  |
 | detailContainerStyle| object | null | custom styles of container of event title and event description |
 | onEventPress | function(event) | null | function to be invoked when event was pressed |
 | renderTime | function(rowData, sectionID, rowID) | null | custom render event time |
 | renderDetail | function(rowData, sectionID, rowID) | null | custom render event title and event description |
 | renderCircle | function(rowData, sectionID, rowID) | null | custom render circle |
+| renderInnerCircle | function(rowData) | null | custom render circle |
 | options | object | null | ListView properties|
 
 
