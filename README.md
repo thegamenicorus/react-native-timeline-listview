@@ -284,7 +284,8 @@ render(){
 | circleColor | string | '#007AFF' | timeline circle color |
 | dotColor | string | 'white' | timeline dot color (innerCircle = 'dot') |
 | icon | obj(image source) | null | timeline icon (innerCircle = 'color') |
-| style | object | null | custom styles of Timeline |
+| style | object | null | custom styles of Timeline container |
+| listViewStyle | object | null | custom styles of inner ListView |
 | timeStyle | object | null | custom styles of event time |
 | titleStyle | object | null | custom styles of event title |
 | descriptionStyle | object | null | custom styles of event description |
