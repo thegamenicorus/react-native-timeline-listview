@@ -320,3 +320,20 @@ render(){
     )
 }
 ```
+
+## Timeline is rendered, but not displayed until scroll
+
+fix by add removeClippedSubviews: false into options
+
+```jsx
+render(){
+    return(
+        <Timeline
+          //..other props
+          options={{
+            removeClippedSubviews: false
+          }}
+        />
+    )
+}
+```
