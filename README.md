@@ -15,7 +15,7 @@ Timeline component for React Native App work for Android and iOS
 - Column Format (in v.0.2.0)
   - [Single column right](#single-column-right)
   - [Two column](#two-column)
-  - [Hide time container](#hide-time)
+  - [Time container hiding](#hide-time)
 - Configuration
   - [Data Object](#data-object)
   - [Timeline](#timeline)
@@ -257,7 +257,6 @@ render(){
 }
 ```
 ### Time container hiding
-![simulator screen shot apr 6 2560 be 5 05 32 pm](https://cloud.githubusercontent.com/assets/21040043/24749638/0515f210-1aee-11e7-82af-082d93efb618.png)
 ```jsx
 render(){
     return(
