@@ -15,6 +15,7 @@ Timeline component for React Native App work for Android and iOS
 - Column Format (in v.0.2.0)
   - [Single column right](#single-column-right)
   - [Two column](#two-column)
+  - [Time container hiding](#hide-time)
 - Configuration
   - [Data Object](#data-object)
   - [Timeline](#timeline)
@@ -257,6 +258,19 @@ render(){
 ```
 [see full two column example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/twoColumnExample.js)
 
+### Time container hiding
+```jsx
+render(){
+    return(
+        <Timeline
+          //..other props
+          showTime={false}
+        />
+    )
+}
+```
+
+
 ## Configuration
 #### Data Object:
 | Property | Type | Default | Description |
@@ -300,6 +314,7 @@ render(){
 | renderCircle | function(rowData, sectionID, rowID) | null | custom render circle |
 | renderFullLine | bool | false | render event border on last timeline item |
 | options | object | null | ListView properties|
+| showTime | boolean | true | Time container options|
 
 
 ## Shift problem
