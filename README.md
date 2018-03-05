@@ -259,6 +259,7 @@ render(){
 [see full two column example](https://github.com/thegamenicorus/react-native-timeline-listview/blob/master/examples/Example/pages/twoColumnExample.js)
 
 ### Time container hiding
+![showTime](https://user-images.githubusercontent.com/6987730/35145888-fae0f1e2-fd3b-11e7-9571-2143342512c8.png)
 ```jsx
 render(){
     return(
