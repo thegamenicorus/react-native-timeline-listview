@@ -285,6 +285,7 @@ render(){
 | circleColor | string | same as circleColor of 'Timeline' | event circle color |
 | dotColor | string | same as dotColor of 'Timeline' | event dot color (innerCircle = 'dot') |
 | icon | obj(image source) | same as icon of 'Timeline' | event icon (innerCircle = 'color') |
+| position | string | null | event side in 'two-column' layout : 'left', 'right' |
 
 #### Timeline:
 | Property | Type | Default | Description |
