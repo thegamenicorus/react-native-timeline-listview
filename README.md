@@ -181,7 +181,7 @@ render(){
     return(
         <Timeline
           //..other props
-          renderEvent={this.renderEvent}
+          renderDetails={this.renderDetails}
         />
     )
 }
