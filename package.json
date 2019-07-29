@@ -26,8 +26,10 @@
   "author": "Watcharachai Kanjaikaew (https://github.com/thegamenicorus)",
   "license": "MIT",
   "bugs": {
-    "url":
-      "https://github.com/thegamenicorus/react-native-timeline-listview/issues"
+    "url": "https://github.com/thegamenicorus/react-native-timeline-listview/issues"
   },
-  "homepage": "https://github.com/thegamenicorus/react-native-timeline-listview"
+  "homepage": "https://github.com/thegamenicorus/react-native-timeline-listview",
+  "dependencies": {
+    "deprecated-react-native-listview": "0.0.5"
+  }
 }
